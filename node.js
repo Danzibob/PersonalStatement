@@ -7,12 +7,12 @@ function node(info){
 	this.Fy = 0;
 	this.color = random(0,100);
 	this.selected = false;
-	
+	this.visited = false;
 	this.name = info.name;
 	this.links = info.links;
 	this.content = info.content;
 	this.mass = random(100,200);
-	
+	this.alpha = 100;
 	this.applyForce = function(addX, addY){
 		this.Fx += addX;	
 		this.Fy += addY;
@@ -49,11 +49,17 @@ function node(info){
 				this.x += (width/2 - this.x)/8;
 				this.y += (height/2 - this.y)/8;
 			}
+			this.visited = true;
 		}
 	}
 	
 	this.show = function(){
-		stroke(this.color,100,100);
+		if(this.visited && !this.selected){
+			this.alpha = 50;
+		} else {
+			this.alpha = 100;
+		}
+		stroke(this.color,100,100,this.alpha);
 		strokeWeight(int(this.mass/4));
 		point(this.x,this.y);
 	}
