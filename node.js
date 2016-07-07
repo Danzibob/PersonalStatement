@@ -59,8 +59,10 @@ function node(info){
 		} else {
 			this.alpha = 100;
 		}
-		stroke(this.color,100,100,this.alpha);
 		strokeWeight(int(this.mass/4));
+		stroke(0,0,0,100);
+		point(this.x,this.y);
+		stroke(this.color,100,100,this.alpha);
 		point(this.x,this.y);
 	}
 	
