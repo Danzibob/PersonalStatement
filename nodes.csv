@@ -1,10 +1,10 @@
 name,links,content
 Website,"[1,2,3,4,17,21,22]","During our Computing A-level course, we were encouraged to develop a website, where we would house all our notes on the subject. I took this basis and used my website as a platform for my own projects, such as the <a href='http://danzibob.github.io/FractalTreeEvolution/'fractal trees</a>, <a href='http://hugs.danzibob.tk'>virtual hugs</a>, and this project."
-HTML,"[2,4]",Test content for: HTML
-CSS,[],Test content for: CSS
-JavaScript,"[5,6]",Test content for: JavaScript
-PHP,[],Test content for: PHP
-p5.js,"[7,8,9]",Test content for: p5.js
+HTML,"[2,4]","Through some basic teaching in school and then further leaning myself, I have gained valuable expreience with HTML and I can easily put together a website for a project or client"
+CSS,[],"Alongside my HTML learning came CSS, to style the pages I was creating. While CSS is less useful for a practical project, it is very useful when developing a site for a client or just making one's own site stand out"
+JavaScript,"[5,6]","I started using JavaScript through web development, introducing interactivity into my webpages, using modules such as JQuery for animations and such. The basics of JS I picked up have become more useful now I've started using p5.js and node.js"
+PHP,[],"While PHP is a little clunky, it's still incredibly useful for doing pre-processing on webpages, and interfacing with SQL databases. I used both in my virtual hugs project."
+p5.js,"[7,8,9]","p5.js is a port of Processing3 from Java to JavaScript, which makes it useful for sketches in browsers, or embedded in webpages. As such, sketches with p5.js can be run on any computer with a JS enabled browser, making this an invaluable platform for graphics based programs within webpages."
 node.js,"[14,16]",Test content for: node.js
 Processing,"[8,9,10]",Test content for: Processing
 Shiffman,[24],Test content for: Shiffman
